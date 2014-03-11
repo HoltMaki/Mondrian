@@ -24,16 +24,10 @@ public enum PietColor {
 	BLACK(new Color(0, 0, 0)),
 	WHITE(new Color(255, 255, 255));
 	
-	private final Color color;
+	public final Color color;
 	
 	PietColor(Color color)
 	{
 		this.color = color;
 	}
-	
-	public Color getColor()
-	{
-		return color;
-	}
-
 }
